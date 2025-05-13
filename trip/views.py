@@ -47,6 +47,7 @@ def trips_list(request):
 
 
 # --- Notes views ---
+
 class NoteDetailView(DetailView):
   model = Note
 
